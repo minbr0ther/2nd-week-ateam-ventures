@@ -1,14 +1,17 @@
-![enter image description here](https://user-images.githubusercontent.com/24728385/148955263-b3a0e063-6950-46f2-82e9-1fcabc24e19e.jpeg)
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/24728385/156980247-0347ddd1-137f-4969-b5d4-e0af642e4aad.png" width="80%"/>
+</p>
 
-<h1 align="middle">[과제] 에이팀벤처스</h1>
+<h1 align="middle">제품제작 견적요청 관리 서비스</h1>
 
-1. Typescript로 구현
-2. Figma 가이드를 따르기
+<br/>
 
 # 🔗 배포
 
 [https://angry-albattani-8e8937.netlify.app](https://angry-albattani-8e8937.netlify.app/)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a580b2b0-c471-4339-9128-f18b39de1a34/deploy-status)](https://app.netlify.com/sites/angry-albattani-8e8937/deploys)
+
+<br/>
 
 # ⚙️ 설치 및 시작하는 법
 
@@ -21,6 +24,9 @@ $ npm install
 
 $ npm run start
 ```
+
+<br/>
+
 
 # 🏹 과제 구현 목록 및 담당
 
