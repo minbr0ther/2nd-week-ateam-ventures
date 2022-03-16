@@ -38,9 +38,9 @@ $ npm run start
 
   - '가공방식', '재료'이 각각 하나 이상 조건이 선택되면 두 조건의 **교집합**으로 노출한다.
 
-2. 필터가 선택되어 있으면 **'필터링 리셋'**을 노출하고, 클릭하면 모든 필터가 해제된다.
+2. 필터가 선택되어 있으면 **'필터링 리셋'** 을 노출하고, 클릭하면 모든 필터가 해제된다.
 
-3. **'상담 중인 요청만 보기'**는 toggle button (on/off) 방식으로 작동한다.
+3. **'상담 중인 요청만 보기'** 는 toggle button (on/off) 방식으로 작동한다.
 <br/>
 
 ### 1.1 Checkbox States
@@ -98,8 +98,6 @@ const [materialChecked, setMaterialChecked] = useState<boolean[]>(
 
 3. '상담중인 요청' 토글 필터링
 
-(+ useEffect 안에서 이렇게 처리과정이 길어져도 되나 고민이 되었으나 마땅하게 해결할 수 있는 방법을 찾지 못하였습니다 🤔)
-
 
 ```tsx
   useEffect(() => {
@@ -153,14 +151,14 @@ const [materialChecked, setMaterialChecked] = useState<boolean[]>(
 
 매개변수는 다음과 같습니다.
 >
-1. FilterCondition: { material: string[]; method: string[] }, 
+>1. FilterCondition: { material: string[]; method: string[] }, 
   **➡️ ex) {method: ["밀링"], material: ["구리"]**
 
 >
-2. category: Category, **➡️ 'material' 혹은 'method'**
+>2. category: Category, **➡️ 'material' 혹은 'method'**
 
 >
-3. beforeFilter: OrderInfo[], **➡️ 이전에 필터링된 항목**
+>3. beforeFilter: OrderInfo[], **➡️ 이전에 필터링된 항목**
 
 ```tsx
 export const orderFilter = (
@@ -192,6 +190,7 @@ export const orderFilter = (
 };
 
 ```
+
 <br/>
 
 # 🏗 프로젝트 구조
@@ -220,6 +219,8 @@ export const orderFilter = (
  └──📜index.tsx
 ```
 
+<br/>
+
 ## ✅ Git - Commit Message Convention [🔗](https://webruden.tistory.com/486)
 
 - feat : 새로운 기능 추가 (a new feature)
@@ -229,6 +230,8 @@ export const orderFilter = (
 - refactor : 코드 리펙토링 (refactoring production code)
 - test : 테스트 코드, 리펙토링 테스트 코드 추가 (adding tests, refactoring test; no production code change)
 - chore : 빌드 업무 수정, 패키지 매니저 수정 (updating build tasks, package manager configs, etc; no production code change)
+
+<br/>
 
 ## 👨‍👨‍👦‍👦 팀구성원 소개
 
